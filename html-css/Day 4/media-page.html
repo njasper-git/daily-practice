@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Page</title>
+</head>
+
+<body>
+    <!-- tags
+         1. header - h1, nav, ul, li, a - 2links, 1 external link
+         2. main = section 1 - figure, img, width, height, loading, alt, figcaption 
+         section 2 - video section, src, controls
+         section 3 - audio section, src, controls
+         section 4 - embed section with iframe
+         3.link that jumps back to top h1
+         4. footer -->
+    <header>
+        <h1 id="top">My Media Page</h1>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/html-css/Day%201/recipe.html">Recipe page</a></li>
+                <li><a href="https://www.wikipedia.org" target="_blank" rel="noopener">Wikipedia</a></li>
+                <li><a href="mailto:hello@example.com">Email me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- section 1 -->
+        <section id="images">
+            <h2>Image</h2>
+            <figure>
+                <img src="https://picsum.photos/400/200" width="400" height="200" loading="lazy"
+                    alt="A random landscape photo from Picsum">
+                <figcaption>A sample photo used for practice</figcaption>
+            </figure>
+        </section>
+        <!-- section 2 -->
+        <section id="videos">
+            <h2>Video</h2>
+            <video controls width="400">
+                <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+        </section>
+        <!-- section 3 -->
+        <section id="audio">
+            <h2>Audio</h2>
+            <audio controls>
+                <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
+                    type="audio/mpeg"> Your browser does not support audio.
+            </audio>
+        </section>
+        <!-- section 4 -->
+        <section id="embed">
+            <h2>Embed Video</h2>
+            <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" title="sample youtube video" width="400"
+                height="300"></iframe>
+        </section>
+        <p><a href="#top">Back to Top</a></p>
+    </main>
+    <footer>
+        <p>&copy; 2026 My Media Page</p>
+    </footer>
+</body>
+
+</html>
