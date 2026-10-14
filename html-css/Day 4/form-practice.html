@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Application Form</h1>
+        </header>
+        <form action="#" method="post">
+            <p>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="msg">Message</label>
+                <textarea id="msg" name="msg"></textarea>
+            </p>
+
+            <fieldset>
+                <legend>Login</legend>
+                <label for="password">Enter your password</label>
+                <input type="password" id="password" name="password" required>
+            </fieldset>
+            <p>
+                <label for="checkbox">I agree</label>
+                <input type="checkbox" id="checkbox" name="checkbox" required>
+            </p>
+            <p>
+                <label for="country">Select your country</label>
+                <select id="country" name="country">
+                    <option value="">-- Please select --</option>
+                    <option value="us">United States</option>
+                    <option value="ca">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                </select>
+            </p>
+            <button type="submit">Send</button>
+        </form>
+    </main>
+</body>
+
+</html>
