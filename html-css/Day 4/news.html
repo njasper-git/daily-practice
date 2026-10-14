@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+</head>
+
+<body>
+    <!-- tags
+         1. main
+         2. header - h1, nav - h2, ul, li, a
+         3. article - h2, time, p, blockquote
+         4.aside - h3, ul, li, a
+         5. footer -  nav -->
+    <header>
+        <h1>Daily Byte</h1>
+        <nav aria-label="main">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Tech</a></li>
+                <li><a href="#">Sports</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <article>
+
+            <h2>Local Students Build Weather App</h2>
+            <time datetime="2026-10-14">14 October 2026</time>
+            <p>A group of college students has built a simple weather app that shows the forecast for their town.
+                The project took two weeks and was made entirely with HTML, CSS and JavaScript.</p>
+            <p>The team says the hardest part was fixing small bugs, such as missing tags and wrong file names. They
+                plan to add a seven-day forecast next month.</p>
+            <figure>
+                <blockquote>
+                    <p>We learned more from fixing mistakes than from reading tutorials.</p>
+                </blockquote>
+                <figcaption>One of the students</figcaption>
+            </figure>
+
+        </article>
+
+        <aside>
+            <h3>Trending</h3>
+            <ul>
+                <li><a href="#">Top 5 coding habits for beginners</a></li>
+                <li><a href="#">How to stay focused while studying</a></li>
+                <li><a href="#">New laptops under budget</a></li>
+            </ul>
+            <h3>Subscribe</h3>
+            <form action="#" method="post">
+                <label for="newsletter">Subscribe to our newsletter:</label>
+                <input type="email" id="newsletter" name="newsletter" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </aside>
+    </main>
+    <footer>
+        <nav aria-label="footer">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
